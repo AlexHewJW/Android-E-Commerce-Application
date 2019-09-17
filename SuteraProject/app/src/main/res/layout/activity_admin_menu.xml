@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".AdminMenu">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add ITEM"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary2"
+        android:onClick="addKainButtonClicked"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Item Menu"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary2"
+        android:layout_marginTop="30dp"
+        android:onClick="removeKainButtonClicked"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view orders"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary2"
+        android:layout_marginTop="30dp"
+        android:onClick="viewOrders"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary2"
+        android:text="Logout"
+        android:onClick="logot1"/>
+
+</LinearLayout>
